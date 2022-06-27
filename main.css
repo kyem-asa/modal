@@ -1,0 +1,84 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 100px;
+}
+
+p {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+.overlay {
+  background-color: #7765E3;
+  color: #fff;
+  max-width: 900px;
+  padding: 50px 100px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+  left: 25%;
+  filter: drop-shadow(17px 4px 14px rgba(0, 0, 0, 0.21));
+  /* display: none; */
+}
+
+.overlay h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-top: 10px;
+  height: 44px;
+  width: 400px;
+}
+
+#submit-btn {
+  width: 170px;
+  height: 44px;
+  background-color: #fff;
+  border: none;
+  color: #7765E3;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#submit-btn:hover {
+  color: #fff;
+  background-color: #7765E3;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.close-link {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 25px 0 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.overlay-postcontent {
+  display: none;
+}
